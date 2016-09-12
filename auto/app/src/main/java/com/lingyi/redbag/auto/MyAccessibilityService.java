@@ -104,8 +104,11 @@ public class MyAccessibilityService extends AccessibilityService {
                 break;
 
             default:
-                getPacket();
-                findAllWindowHongBao();
+                if(accessibilityEvent.getPackageName().equals("com.tencent.com.tencent.mobileqq")){
+                    getPacket();
+                }else{
+                    findAllWindowHongBao();
+                }
                 break;
         }
 
