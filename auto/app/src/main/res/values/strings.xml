@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">你懂的</string>
+    <string name="u_biz_notify_money">使用本软件前请认真阅读</string>
+    <string name="my_accessibility_description">传文自动抢红包</string>
+    <string name="u_biz_notify_brand">在使用软件过程中产生的</string>
+    <string name="u_biz_circual">任何权益纠纷或法律责任</string>
+    <string name="u_biz_notify_dynamic">本软件概不负责自己承担</string>
+</resources>

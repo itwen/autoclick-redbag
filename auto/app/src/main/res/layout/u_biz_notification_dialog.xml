@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/u_biz_shape_rectangle_notification_bg"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:layout_marginLeft="33dp"
+    android:layout_marginRight="33dp"
+    android:layout_gravity="center_horizontal"
+    android:textColor="#333333"
+    android:layout_marginTop="20dp"
+    android:textSize="17sp"
+    android:text="开启通知,不错过重要信息"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+   <RelativeLayout
+       android:layout_marginTop="20dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/u_biz_notifi_icon_1"
+          android:src="@drawable/u_biz_notify_money_ic"
+          android:layout_width="25dp"
+          android:layout_height="25dp" />
+
+      <TextView
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="10dp"
+          android:layout_toRightOf="@+id/u_biz_notifi_icon_1"
+          android:text="@string/u_biz_notify_money"
+          android:textSize="16sp"
+          android:textColor="#666666"
+          android:id="@+id/u_biz_notifi_title_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:src="@drawable/u_biz_notify_invite"
+          android:id="@+id/u_biz_notifi_icon_2"
+          android:layout_width="25dp"
+          android:layout_height="25dp" />
+
+      <TextView
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="10dp"
+          android:layout_toRightOf="@+id/u_biz_notifi_icon_2"
+          android:text="@string/u_biz_notify_brand"
+          android:textSize="16sp"
+          android:textColor="#666666"
+          android:id="@+id/u_biz_notifi_title_2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:src="@drawable/u_biz_notify_circular"
+          android:id="@+id/u_biz_notifi_icon_3"
+          android:layout_width="25dp"
+          android:layout_height="25dp" />
+
+      <TextView
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="10dp"
+          android:layout_toRightOf="@+id/u_biz_notifi_icon_3"
+          android:text="@string/u_biz_circual"
+          android:textSize="16sp"
+          android:textColor="#666666"
+          android:id="@+id/u_biz_notifi_title_3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="20dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:src="@drawable/u_biz_notify_new"
+          android:id="@+id/u_biz_notifi_icon_4"
+          android:layout_width="25dp"
+          android:layout_height="25dp" />
+
+      <TextView
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="10dp"
+          android:layout_toRightOf="@+id/u_biz_notifi_icon_4"
+          android:text="@string/u_biz_notify_dynamic"
+          android:textSize="16sp"
+          android:textColor="#666666"
+          android:id="@+id/u_biz_notifi_title_4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+   </RelativeLayout>
+   <View
+       android:background="#e5e5e5"
+       android:layout_width="match_parent"
+       android:layout_height="1px"
+       />
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="45dp">
+      <RelativeLayout
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="match_parent">
+         <TextView
+             android:layout_centerInParent="true"
+             android:id="@+id/u_biz_notification_cancel"
+             android:layout_width="wrap_content"
+             android:textColor="#666666"
+             android:textSize="16sp"
+             android:gravity="center"
+             android:text="拒绝工作"
+             android:layout_height="match_parent" />
+         <View
+             android:layout_alignParentRight="true"
+             android:background="#e5e5e5"
+             android:layout_width="1px"
+             android:layout_height="match_parent"/>
+      </RelativeLayout>
+
+      <TextView
+          android:id="@+id/u_biz_notification_open"
+          android:textColor="#00cfc4"
+          android:textSize="16sp"
+          android:text="去打开"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="match_parent" />
+   </LinearLayout>
+</LinearLayout>
